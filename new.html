@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babun - Business & Finance HTML5 Template</title>
+    <link rel="icon" href="icon1.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="satoshi.css">
+    <link rel="stylesheet" href="magnita.css">
+    <link rel="stylesheet" href="./demo/style.css">
+    <script src="https://kit.fontawesome.com/157da55852.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: white;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul li {
+            list-style-type: none;
+        }
+
+        .my-dropdown-toggle::after {
+            content: none;
+        }
+
+        .nav-link {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .hero-heading {
+            font-size: 100px;
+            font-weight: 500
+        }
+
+        .counter {
+            font-family: satoshi;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .wow {
+            padding-left: 100px;
+        }
+
+        .im {
+            padding-top: 110px;
+            max-width: 400px;
+            max-height: 400px;
+
+
+        }
+
+        .hero-banner-three {
+            padding-top: 100px;
+        }
+
+        .img1 {
+            position: relative;
+        }
+
+        .img2 {
+            position: absolute;
+            padding-top: 20px;
+            height: 600px;
+            width: 450px;
+        }
+
+        .i-1 {
+            position: relative;
+            padding-top: 250px;
+        }
+
+        .i-2 {
+            position: absolute;
+
+        }
+
+        .hero-banner-three {
+            padding-bottom: 60px;
+        }
+
+        .ps-3 {
+            padding-left: 1rem !important;
+        }
+
+        @keyframes anime {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(-100%);
+            }
+        }
+
+        .logos {
+            overflow: hidden;
+            padding: 60px 0;
+            background: white;
+            white-space: nowrap;
+        }
+
+        .logos-slide {
+            display: inline-block;
+            animation: 20s anime linear infinite;
+        }
+
+        .logos-style img {
+            height: 50px;
+            margin: 0 60px;
+        }
+
+        .col-6 {
+            padding-top: 50px;
+            padding-bottom: 100px;
+        }
+
+        .footer-three .round-bg {
+            width: 350px;
+            height: 350px;
+            padding: 15px 15px;
+            background: #fff6c6;
+            position: relative;
+        }
+
+        .rounded-circle {
+            border-radius: 50% !important;
+        }
+
+        .text-center {
+            text-align: center !important;
+        }
+
+        .align-items-center {
+            align-items: center !important;
+        }
+
+        .justify-content-center {
+            justify-content: center !important;
+        }
+
+        .flex-column {
+            flex-direction: column !important;
+        }
+
+        .d-flex {
+            display: flex !important;
+        }
+
+        .shape_01 {
+            padding-right: 1250px;
+            position: absolute;
+        }
+
+        .shape_02 {
+            padding-left: 800px;
+        }
+
+        ul li a {
+            color: gray;
+            margin: 2px solid white;
+        }
+
+        .style-none {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
+        ul {
+            margin-top: 0;
+
+        }
+    </style>
+</head>
+
+<body style="overflow: visible;">
+    <header class="theme-main-menu menu-overlay menu-style-three sticky-menu sticky-top bg-body-light">
+        <div class="inner-content">
+            <div class="top-header position-relative">
+                <div class="d-flex align-items-center justify-content-between p-4">
+                    <div class="logo order-lg-0">
+                        <a href="index.html" class="d-flex align-items-center">
+                            <img src="/New folder/logo_02.svg" alt="">
+                        </a>
+                    </div>
+                    <!-- logo -->
+                    <div class="right-widget ms-auto ms-lg-0 me-3 me-lg-0 order-lg-3">
+                        <ul class="d-flex align-items-center style-none">
+                            <li class="d-flex align-items-center login-btn-one">
+                                <img src="/New folder/icon_2.svg" alt="" class="lazy-img icon me-2">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#lginModal" o class="fw-500"
+                                    style="color: black; font-size: 20px;">Login</a>
+                            </li>
+                            <li class="d-none d-md-inline-block ms-3 ms-xl-5">
+                                <a href="contact.html" class="btn bg-dark text-light">Get Started</a>
+                            </li>
+                        </ul>
+                    </div> <!--/.right-widget-->
+
+                    <nav class="navbar navbar-expand-lg p0 ms-lg-5 order-lg-2">
+                        <button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav align-items-lg-center">
+                                <li class="d-block d-lg-none">
+                                    <div class="logo"><a href="index.html" class="d-block"><img
+                                                src="images/logo/logo_02.svg" alt=""></a>
+                                    </div>
+                                </li>
+                                <div class="nav-item dropdown me-5 ">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside" aria-expanded="false">Home
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <ul>
+                                            <li><a href="index.html" class="dropdown-item"><span>Finance</span></a></li>
+                                            <li><a href="index-2.html" class="dropdown-item"><span>Business
+                                                        Consultancy</span></a></li>
+                                            <li><a href="index-3.html" class="dropdown-item"><span>Banking</span></a>
+                                            </li>
+                                            <li><a href="index-4.html" class="dropdown-item"><span>Payment
+                                                        Solution</span></a></li>
+                                            <li><a href="index-5.html" class="dropdown-item"><span>Digital
+                                                        Agency</span></a></li>
+                                            <li><a href="index-6.html" class="dropdown-item"><span>Marketing</span></a>
+                                            </li>
+                                            <li><a href="index-7.html" class="dropdown-item"><span>Insurance</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="nav-item dropdown me-5 ">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside" aria-expanded="false">Pages
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <div class="drop-dn d-flex">
+
+                                            <ul>
+                                                <li><a href="service-v1.html" class="dropdown-item"><span>Service
+                                                            v-1</span></a>
+                                                </li>
+                                                <li><a href="service-v2.html" class="dropdown-item"><span>Service
+                                                            v-2</span></a>
+                                                </li>
+                                                <li><a href="service-details.html" class="dropdown-item"><span>Service
+                                                            Details</span></a></li>
+                                                <li><a href="team-v1.html" class="dropdown-item"><span>Team
+                                                            V-1</span></a>
+                                                </li>
+                                                <li><a href="team-v2.html" class="dropdown-item"><span>Team
+                                                            V-2</span></a>
+                                                </li>
+                                                <li><a href="team-details.html" class="dropdown-item"><span>Team
+                                                            Details</span></a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="about-us-v1.html" class="dropdown-item"><span>About Us
+                                                            V-1</span></a></li>
+                                                <li><a href="about-us-v2.html" class="dropdown-item"><span>About Us
+                                                            V-2</span></a></li>
+                                                <li><a href="testimonial.html"
+                                                        class="dropdown-item"><span>Testimonial</span></a></li>
+                                                <li><a href="pricing.html"
+                                                        class="dropdown-item"><span>Pricing</span></a>
+                                                </li>
+                                                <li><a href="faq.html" class="dropdown-item"><span>FAQ’s</span></a></li>
+                                                <li><a href="404.html" class="dropdown-item"><span>404 Error</span></a>
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="project-v1.html" class="dropdown-item"><span>Project
+                                                            V-1</span></a>
+                                                </li>
+                                                <li><a href="project-v2.html" class="dropdown-item"><span>Project
+                                                            V-2</span></a>
+                                                </li>
+                                                <li><a href="project-v3.html" class="dropdown-item"><span>Project
+                                                            V-3</span></a>
+                                                </li>
+                                                <li><a href="project-details-v1.html"
+                                                        class="dropdown-item"><span>Project
+                                                            Details V-1</span></a></li>
+                                                <li><a href="project-details-v2.html"
+                                                        class="dropdown-item"><span>Project
+                                                            Details V-2</span></a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="nav-item dropdown me-5 ">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside" aria-expanded="false">Shop
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="shop-grid.html" class="dropdown-item"><span>Shop</span></a></li>
+                                        <li><a href="shop-details.html" class="dropdown-item"><span>Shop
+                                                    Details</span></a></li>
+                                        <li><a href="cart.html" class="dropdown-item"><span>Cart</span></a></li>
+                                        <li><a href="checkout.html" class="dropdown-item"><span>Checkout</span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="nav-item dropdown  me-5 ">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside" aria-expanded="false">Blog
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="blog-v1.html" class="dropdown-item"><span>Blog List</span></a>
+                                        </li>
+                                        <li><a href="blog-v2.html" class="dropdown-item"><span>Blog Grid</span></a>
+                                        </li>
+                                        <li><a href="blog-details.html" class="dropdown-item"><span>Blog
+                                                    Details</span></a></li>
+                                    </ul>
+                                    </li>
+                                </div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./img/contact.html" role="button">Contact Us</a>
+                                </li>
+                                <li class="d-md-none ps-2 pe-2">
+                                    <a href="./img/contact.html" class="btn-ten tran3s w-100 mt-20">Get Started</a>
+                                </li>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-banner-three pt-200 md-pt-130 pb-120 xl-pb-50 position-relative">
+        <div class="container position-relative">
+            <div class="row justify-content-between">
+                <div class="d-flex justify-content-center">
+                    <div class="col-lg-4 col-md-5 wow fadeInLeft wow fadeInLeft"
+                        style="visibility: visible; width: 400px;">
+                        <h1 class="hero-heading font-magnita ">All Banking Needs</h1>
+                        <p class="text-lg pt-35 lg-pt-30 pb-35 lg-pb-20">Digital agency with top rated talented people
+                            provide</p>
+                        <a href="contact.html" class="btn bg-dark text-light">Get Started</a>
+                    </div>
+                    <div class="tot row col-6">
+
+                        <img src="round_shape.png " class="img1">
+                        <img src="businessman.png" class="img2 ">
+                    </div>
+                    <div class="wow fadeInRight" style="visibility: visible;">
+                        <div class="right-widget sm-mt-40 ps-xxl-5 ps-xl-0 ps-lg-4">
+                            <div><img src="/New folder/screen_06.svg" alt="" class="img1"></div>
+                            <p class="lh-base text-md mt-70 lg-mt-30 mb-60 lg-mb-30 pt-100">
+                                <span class="fw-500 text-dark text-decoration-underline">Over 90+
+                                </span> countries using
+                                our service without any hassle.
+                            </p>
+                            <div class="row align-items-center">
+                                <div class="col-xl-5 col-md-4 coll2">
+                                    <img src="/New folder/icon_31.svg" alt="" class="lazy-img icon">
+                                </div>
+                                <div class="col-xl-7 col-md-8 coll1">
+                                    <div class="main-count text-dark fw-500"><span class="counter"
+                                            style="height: 20px;font-size: 58px; font-family: satoshi; font-weight: 500;">1.75m</span>
+                                    </div>
+                                    <div>Total Active user</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <div class="container-fluid" style="background-image: url('img/shape_10.svg'); background-color: #dceff0; justify-content: space-between;">
+        <div class="row" style="padding-top: 100px; padding-bottom: 10px;">
+            <div class="col-5 mb-1 pt-200 wow fadeInLeft">
+                <div class="title-one">
+                    <h2 class="text-dark" style="font-size: 48px; font-weight: 500;">Our Featured products.</h2>
+                </div>
+
+                <p class="text-lg text-dark mt-40 md-mt-20 mb-35 md-mb-30" style="font-size: 30px;">Inciddnt ut labore
+                    et dolor magna aliu. ad mim venam, quis nostru </p>
+                <a href="service-v2.html" class="btn-eleven d-inline-flex align-items-center">
+                    <span class="text" style="color: black; font-weight: 500; font-size: 18px;">All Services</span>
+                    <div class="icon tran3s rounded-circle d-flex align-items-center"><img
+                            src="./img/icon/icon_27 (1).svg" style="color: black;"></div>
+                </a>
+            </div>
+            <div class="col-sm-3 mb-1 mb-sm-0" style="padding-bottom: 20px;">
+                <div class="card" style="height: 250px;width: 300px;">
+                    <div class="card-body">
+                        <img src="./img/icon/icon_32.svg" alt="">
+                        <h4 class="fw-bold mt-30 mb-20">Agent Banking</h4>
+                        <p>Stay updated, check your bank account to manage funds and track transactions securely.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="height: 250px;width: 300px;">
+                    <div class="card-body">
+                        <img src="./img/icon/icon_33.svg" alt="">
+                        <h4 class="fw-bold mt-30 mb-20">Savings Account</h4>
+                        <p>Securely save money, earn interest with a dedicated savings account.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 50px;padding-left: 30px;">
+                <div class="col-sm-5 mb-1 mb-sm-2">
+                    <div>
+                        <img src="./img/shape_12.svg" style="padding-left: 500px;">
+                        <img src="./img/shape_11.svg" width="250px" height="200px"
+                            style="padding-top: 60px; padding-left: 50px;">
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-1 mb-sm-3">
+                    <div class="card" style="height: 250px;width: 300px;">
+                        <div class="card-body">
+                            <img src="./img/icon/icon_34.svg" alt="">
+                            <h4 class="fw-bold mt-30 mb-20">Low Interest</h4>
+                            <p>Bank yields meager interest, limiting earnings on deposited funds and investments.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3" style="padding-left: 20px ;">
+                    <div class="card" style="height: 250px;width: 300px;">
+                        <div class="card-body">
+                            <img src="./img/icon/icon_35.svg" alt="">
+                            <h4 class="fw-bold mt-30 mb-20">Multiple Cards.</h4>
+                            <p>Bank cards offer easy payments and cash withdrawals, enhancing financial accessibility.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-feature-four position-relative pt-150 lg-pt-80" style="padding-top: 100px;">
+        <div class="container">
+            <img src="./img/shape_13.svg" style="padding-left: 90%; height: 15px;">
+            <div class="row">
+                <div class="col-md-4 order-md-first wow fadeInLeft ps-0">
+                    <div class="d-flex align-items-center mt-10 sm-mt-30">
+                        <img src="./img/img_19.jpg" style="height: 90px;" class="lazy-img avatar rounded-circle">
+                        <div class="ps-3">
+                            <div class="name fw-500 text-dark" style="font-size: 22px;font-weight: 500; ;">Musa Jamy.
+                            </div>
+                            <p class="m0" style="font-size: 20px; width: 300px;">CEO &amp; Head of babun.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 order-md-last wow fadeInRight">
+                    <p class="quote-text text-dark ps-xl-5">
+
+                        <span class="fw-500 text-decoration-underline" style="font-size: 50px;">7.42m+</span>
+                        <span style="font-size: 40px;"> experience banking
+                            excellence by us. Trusted services, customer focused solutions,</span> <span
+                            class="opacity-25" style="font-size: 40px;">and a
+                            legacy of financial reliability.</span>
+                    </p>
+                </div>
+
+            </div>
+            <img src="./img/shape_13.svg" style="padding-left: 20%; height: 25px;">
+            <div class="container" style="padding-top: 10px;padding-bottom: 50px;">
+                <img src="./img/Capture.PNG" style="padding-left: -100px;">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row" style="background-color: #FCDF89; height: 550px;">
+            <div class="col-5 ps-0 m-1">
+                <img src="./img/img_20 (1).jpg" style="width: 550px;" class="i-2">
+                <a class="fancybox rounded-circle video-icon tran3s text-center d-flex align-items-center justify-content-center"
+                    data-fancybox="" href="https://www.youtube.com/embed/aXFSJTjVjw0">
+                    <img src="img/icon/icon_29.svg" class="i-1">
+                </a>
+                <a href="https://www.youtube.com/embed/aXFSJTjVjw0"></a>
+            </div>
+            <div class="col-6" style="padding-left: 200px;">
+                <div class="text-wrapper pt-50 pb-60 lg-pb-40 ps-3 ps-xxl-5 pe-3 pe-xxl-5">
+                    <div class="title-one">
+                        <h2 class="text-dark" style="font-size: 45px;padding-top: 50px;width: 350px;">Let’s get started
+                            It’s simple.</h2>
+                    </div>
+                    <!-- /.title-one -->
+                    <p class="text-lg text-dark mt-25 mb-35 lg-mb-30" style="font-size: 24px;width: 350px;">Lorem Ipsum
+                        is simply dummy text of the printing and typesetting industry.</p>
+                    <ul class="style-none">
+                        <li>Mobile app easy management &amp; access</li>
+                        <li>Ton’s of features for handle the card easily</li>
+                        <li>Strong security system.</li>
+                    </ul>
+                    <a href="about-us-v1.html" class="btn-eleven d-inline-flex align-items-center mt-40">
+                        <span class="text" style="color: black;font-weight: 500;">More about us</span>
+                        <div class="icon tran3s rounded-circle d-flex align-items-center"><img
+                                src="img/icon/icon_27 (1).svg" alt="" class="lazy-img"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="padding-top: 100px;">
+        <div class="row">
+            <div class="col-10">
+                <h2 class="text-dark" style="font-size: 50px;">We're here to help you build, manage &amp; protect your
+                    wealth.</h2>
+            </div>
+            <div class="col">
+                <img src="./img/shape_13.svg" style="padding-left: 90%; height: 15px;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5 d-flex" style="background-color: grey;">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container ps-0">
+        <div style="padding-top: 50px;padding-left: -100px; ">
+            <img src="./img/Capture1.PNG">
+        </div>
+        <div style="padding-top: 100px;" style="padding-left: -100px;">
+            <img src="./img/Capture2.PNG">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6" style="padding-top: 60px;">
+                <div class="title mb-85 lg-mb-50 mt-65 md-mt-30">
+                    <h2 class="text-dark" style="font-size: 64px; font-weight: 500;">Find our Customers kind Words.</h2>
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="row">
+                                    <div class="col-1 m-1">
+                                        <img src="./img/icon/icon_39.svg" class="d-flex" style="padding-top: 40px;">
+
+                                    </div>
+                                    <div class="col-10" style="padding-left: 50px; padding-top: 40px; font-size: 30px;">
+                                        <blockquote class="text-lg">Quick solutions coupled with extraordinary
+                                            performance—a recommendation that's unequivocal.</blockquote>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="row">
+                                    <div class="col-1 m-1">
+                                        <img src="./img/icon/icon_39.svg" class="d-flex" style="padding-top: 40px;">
+
+                                    </div>
+                                    <div class="col-10" style="padding-left: 50px; padding-top: 40px; font-size: 30px;">
+                                        <blockquote class="text-lg">We are absolutely thrilled with the services
+                                            provided by Babun! Their team went above and beyond to transform.
+                                        </blockquote>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-1 m-1">
+                                    <img src="./img/icon/icon_39.svg" class="d-flex" style="padding-top: 40px;">
+
+                                </div>
+                                <div class="col-10" style="padding-left: 50px; padding-top: 40px; font-size: 30px;">
+                                    <blockquote class="text-lg">Babun Solutions has truly been a game changer for our
+                                        business. Their expertise in developing our mobile app</blockquote>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-5">
+            <img src="./img/img_21.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="logos">
+        <div class="logos-slide">
+            <img src="./img/media_01 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_02 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_03 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_04 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_05 (1).png" style="padding-left: 200px;" alt="Running Image" />
+        </div>
+        <div class="logos-slide">
+            <img src="./img/media_01 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_02 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_03 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_04 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_05 (1).png" style="padding-left: 200px;" alt="Running Image" />
+        </div>
+        <div class="logos-slide">
+            <img src="./img/media_01 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_02 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_03 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_04 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_05 (1).png" style="padding-left: 200px;" alt="Running Image" />
+        </div>
+        <div class="logos-slide">
+            <img src="./img/media_01 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_02 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_03 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_04 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_05 (1).png" style="padding-left: 200px;" alt="Running Image" />
+        </div>
+        <div class="logos-slide">
+            <img src="./img/media_01 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_02 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_03 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_04 (1).png" style="padding-left: 200px;" alt="Running Image" />
+            <img src="./img/media_05 (1).png" style="padding-left: 200px;" alt="Running Image" />
+        </div>
+    </div>
+
+
+    <div class="container-fluid b-1" style="background-color: #dceff0; justify-content: space-between; ">
+        <div class="row" style="padding-top: 10px;;">
+            <div class="row" style="background-image: url('./img/shape_10.svg')">
+                <div class="col-6 justify-content-center">
+                    <img src="./img/screen_11.png" style="padding-left: 100px; padding-top: 50px;padding-bottom: 50px;">
+                </div>
+                <div class="col-6 justify-content-center" style="padding-left: 100px;padding-top: 50px;">
+                    <span style="font-size: 64px;font-weight: 500; margin-bottom: 40px;">Download our bank Mobile
+                        App.</span>
+                    <p style="font-size: 20px;padding-top: 20px; color: grey;">Control of all your banking needs needs
+                        anywhere, anytime</p>
+                    <ul style="font-size: 28px; padding-top: 50px;">
+                        <li><i class="fa-solid fa-check"></i> Compare different insurance Item</li>
+                        <li><i class="fa-solid fa-check"></i> Buy, store and share all your policies online</li>
+                        <li><i class="fa-solid fa-check"></i> Email & Live chat</li>
+                    </ul>
+                    <a href="contact.html" class="btn"><img src="./img/playstore.png" width="200px" height="50px"></a>
+                    <a href="contact.html" class="btn"><img src="./img/IMG_20240208_114937.png" width="200px"
+                            height="50px"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container" style="padding-top: 120px;">
+        <div class="inner-content">
+            <h1 style="font-size: 64px;font-weight: 500;">Latest News.</h1>
+        </div>
+        <div class="container md-mt-50">
+            <p class="text-lg mb-30 lg-mb-10" style="font-size: 20px; color: grey;">Get the latest update, trips
+                &amp;
+                tricks from our expert.</p>
+            <a href="blog-v1.html" class="btn-eleven d-inline-flex align-items-center">
+                <span class="text" style="color: black;padding-left: 1100px;font-weight: 500;">See all
+                    blogs--</span>
+                <div class="icon tran3s rounded-circle d-flex align-items-center bg-dark"><img
+                        src="img/icon/icon_27 (1).svg" alt="" class="lazy-img"></div>
+            </a>
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 mb-3 mb-sm-0">
+                <img src="img/blog_img_01.jpg" alt="">
+                <div class="post-data">
+                    <div class="post-info"><span class="fw-500 text-dark">Rashed Ka -</span> 18 Jul 2023</div>
+                    <a href="blog-details.html" class="mt-15">
+                        <h4 class="tran3s blog-title text-dark">Wise Spending Habits, 13 Tips for Maximizing Your Money.
+                        </h4>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-6">
+                <img src="img/blog_img_02.jpg" alt="">
+                <div class="post-data">
+                    <div class="post-info"><span class="fw-500 text-dark">Mark Joe -</span> 09 Feb 2023</div>
+                    <a href="blog-details.html" class="mt-15">
+                        <h4 class="tran3s blog-title text-dark">Lessons from Visionary Leaders for Success in Business.
+                        </h4>
+                    </a>
+                </div>
+                <figure class="post-img-1 position-relative d-flex justify-content-end align-items-end m0">
+                    <a href="blog-details.html"
+                        class="round-btn stretched-link rounded-circle d-flex align-items-center justify-content-center tran3s"><i
+                            class="bi bi-arrow-up-right"></i></a>
+                </figure>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="newsletter-banner">
+        <div class="container">
+            <div class="row"
+                style="border-top: 1px solid rgb(204, 199, 199);border-bottom: 1px solid rgb(204, 199, 199); padding-bottom: 0%;">
+                <div class="col-6">
+                    <h2 class="text-dark fw-bold">Our Newsletter.</h2>
+                    <p>Get instant news by subscribe to our daily newsletter</p>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex" style="padding-left: 350px;">
+                        <input type="email" placeholder="Enter your email address"
+                            style="border-top: 1px solid grey; width: 200px;">
+                        <div class="icons">
+                            <button class="btn btn-dark rounded-5"><i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="sign in d-block" style="padding-left: 350px;">
+                        <p style="color: grey;">Already subscribed? <a href="#" style="color: black;">Unsubscribe</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-three" style="padding-top: 50px;">
+        <div class="container">
+            <div class="inner-wrapper position-relative">
+                <div class="row justify-content-center">
+                    <img src="img/shape_36.svg" alt="" class="lazy-img shapes shape_01">
+                    <div class="col-lg-4 footer-intro mb-30">
+                        <div
+                            class="round-bg rounded-circle text-center d-flex flex-column align-items-center justify-content-center">
+                            <div class="logo mb-15">
+                                <a href="index.html">
+                                    <img src="img/logo_02.svg" alt="">
+                                </a>
+                            </div>
+                            <!-- logo -->
+                            <p class="lh-sm mb-45 lg-mb-30">2190 Urban Terrace, Mirpur, <br>Licensed in 50 states.</p>
+                            <p class="m0"><a href="#">+757 699-4478</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 mb-20 justify-content-center">
+                        <h5 class="footer-title">Links</h5>
+                        <ul class="footer-nav-link style-none">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="pricing.html">Pricing Plan</a></li>
+                            <li><a href="about-us-v1.html">About us</a></li>
+                            <li><a href="service-v1.html">Our services</a></li>
+                            <li><a href="project-v2.html">Portfolio</a></li>
+                            <li><a href="service-v2.html">Features</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 mb-20 justify-content-center">
+                        <h5 class="footer-title">Company</h5>
+                        <ul class="footer-nav-link style-none">
+                            <li><a href="about-us-v2.html">About us</a></li>
+                            <li><a href="blog-v2.html">Blogs</a></li>
+                            <li><a href="faq.html">FAQ’s</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-xxl-2 col-lg-3 col-sm-4 mb-20">
+                        <h5 class="footer-title">Support</h5>
+                        <ul class="footer-nav-link style-none">
+                            <li><a href="contact.html">Terms of use</a></li>
+                            <li><a href="contact.html">Terms &amp; conditions</a></li>
+                            <li><a href="contact.html">Privacy</a></li>
+                            <li><a href="contact.html">Cookie policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+
+                <img src="img/shape_37.svg" alt="" class="lazy-img shapes shape_02"
+                    style="padding-bottom: 20px;">
+                    <footer>
+                        <div class="inner" style="border-bottom: 1px solid grey; border-top: 1px solid grey;">
+                
+                        </div>
+                    </footer>
+            </div>
+             <!-- /.inner-wrapper -->
+        </div>
+        <div class="container" style="padding-top: 20px;">
+            <div class="bottom-footer">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-3 order-lg-3 mb-15">
+                        <ul
+                            class="style-none d-flex align-items-center justify-content-between justify-content-lg-end social-icon">
+                            <li><a href="#" style="padding-left: 10px;"><i class="fa-brands fa-facebook"></i></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 order-lg-2 mb-15">
+                        <ul class="style-none bottom-nav d-flex flex-wrap justify-content-between order-lg-last">
+                            <li><a href="contact.html">Privacy &amp; Terms</a></li>
+                            <li><a href="contact.html">Cookies</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-4 col-lg-3 order-lg-1 mb-15">
+                        <div class="copyright text-center text-lg-start order-lg-first">Copyright @2023 babun inc.</div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.bottom-footer -->
+            
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
